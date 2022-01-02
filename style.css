@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #00ffff 0%, #6600ff 100%);
+}
+
+.cal{
+  width: 40rem;
+  background-color: #fff;
+}
+
+h2{
+  background-color: #A366FF;
+  color: #000;
+  font-size: 4rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+form,
+form > *{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  border-bottom: 2px solid #6600ff;
+}
+
+form div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+input,
+select {
+  font-size: 1.6rem;
+  padding: 0.7rem;
+  width: 20rem;
+}
+
+.bill{
+  text-align: right;
+}
+
+.rate{
+  text-align: center;
+}
+
+.btn{
+  background-color: #A366FF;
+  margin: 0.5rem 0;
+  color: #000;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.btn:hover{
+  background-color: #6600ff;
+}
+
+.error{
+  display: none;
+  color: red;
+}
+
+.result{
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.result > *{
+  background-color: #eee;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.total{
+  color: red;
+}
